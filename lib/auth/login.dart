@@ -49,7 +49,7 @@ class _LoginState extends State<Login> {
                  TextField(
                       decoration: InputDecoration(
                                label: Text('password'),
-                               prefix: Icon(Icons.visibility_off),
+                               prefix: Icon(Icons.lock),
                                border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(15),
                       )
